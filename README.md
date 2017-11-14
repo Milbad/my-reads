@@ -7,7 +7,7 @@ This is the project for the final assessment project for Udacity's React Fundame
 
 ## How to run the application
 - Download the repository in your desktop and unzip it
-- Open your terminal and run `npm install` and `npm start`
+- Open your terminal and run `yarn` and `yarn start`
 
 ## Backend Server
 
