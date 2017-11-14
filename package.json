@@ -5,13 +5,21 @@
   "private": true,
   "dependencies": {
     "react": "^16.1.1",
+    "react-debounce-input": "^3.1.0",
     "react-dom": "^16.1.1",
-    "react-scripts": "1.0.17"
+    "react-rating": "^0.9.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "sort-by": "^1.2.0"
   },
   "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.0.0"
   }
 }
